@@ -1,1 +1,15 @@
-{"title": "Currency Conversion Practice", "status": "idea", "showOnPortfolio": true, "showAboveFold": false,  "imageAltProperty": "Screenshot of the project",        "subtitle": null}
+{
+  "title": "Get Random Stretch",
+  "subtitle": "",
+  "status": "alpha",
+  "showOnPortfolio": false,
+  "showAboveFold": false,
+  "imageAltProperty": "Screenshot of Random Stretch",
+  "languages": ["en"],
+  "links": [
+    {
+      "title": "See on GitHub",
+      "url": "https://github.com/koljapluemer/random-stretch"
+    }
+  ]
+}
