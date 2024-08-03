@@ -19,10 +19,14 @@
   </p>
   <h3 class="text-lg font-bold">Can I contribute?</h3>
   <p>
-    This project is OpenSource. You are welcome to contribute or to make derivative versions. Check the <a href="/">GitHub</a>.
+    This project is OpenSource. You are welcome to contribute or to make derivative versions. Check the <a href="https://github.com/koljapluemer/random-stretch">GitHub</a>.
   </p>
   <h3 class="text-lg font-bold">How are the stretches related?</h3>
   <p>
     Fairly arbitrarily. My database is just a collection of stretches I found that have short, clear instructions and do not seem to require specific equipment at first glance.
+  </p>
+  <h3 class="text-lg font-bold">Why is the recommended stretch not changing?</h3>
+  <p>
+    I find that if I can skip the recommended exercises without limit, I fall victim of perfectionism and just shuffle through the exercises, not actually doing any of them. This is a safeguard.
   </p>
 </template>

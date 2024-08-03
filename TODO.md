@@ -1,5 +1,0 @@
-- adapt the link in footer once online
-- prevent tricking the new stretch by reloading
-- add goat counter
-- create favicon
-- insert github link in FAQ

@@ -36,10 +36,10 @@
     >
   </div>
 
-  
-  <button :disabled="isDisabled" @click="handleClick" class="btn">
-    {{ buttonText }}
-  </button>
+
+  <em>
+    There is a new stretch every minute. If you really don't want to do this one, wait a minute and refresh the page.
+  </em>
 </template>
 
 <script setup>
@@ -84,10 +84,37 @@ const disclaimerOpen = ref(true);
 
 // function to find new random exercises:
 function getRandomStretch() {
-  const randomIndex = Math.floor(Math.random() * stretches.length);
+  // use current datetime (precision: minutes) as seed
+  const seed = new Date().toISOString().slice(0, 16);
+  const randomIndex = seededRandom(seed, stretches.length);
   name.value = stretches[randomIndex].name;
   id.value = stretches[randomIndex].id;
   original_source.value = stretches[randomIndex].original_source;
+}
+
+function seededRandom(seed, range) {
+    // A simple hash function to generate a consistent hash from the seed string
+    function hashString(str) {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            const char = str.charCodeAt(i);
+            hash = (hash << 5) - hash + char;
+            hash |= 0; // Convert to 32-bit integer
+        }
+        return hash;
+    }
+
+    // Use the hash value as the seed for generating a pseudorandom number
+    function pseudoRandom(seed) {
+        const x = Math.sin(seed) * 10000;
+        return x - Math.floor(x);
+    }
+
+    const hash = hashString(seed);
+    const randomValue = pseudoRandom(hash);
+
+    // Return a random number between 0 and range-1
+    return Math.floor(randomValue * range);
 }
 
 getRandomStretch();
