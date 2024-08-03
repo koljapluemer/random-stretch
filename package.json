@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vue": "^3.4.29",
+    "vue-lite-youtube-embed": "^1.2.4",
     "vue-router": "^4.4.2"
   },
   "devDependencies": {
