@@ -1,8 +1,8 @@
 {
   "title": "Get Random Stretch",
-  "subtitle": "",
-  "status": "alpha",
-  "showOnPortfolio": false,
+  "subtitle": "A minimalist site for stretching exercise inspiration",
+  "status": "mvp",
+  "showOnPortfolio": true,
   "showAboveFold": false,
   "imageAltProperty": "Screenshot of Random Stretch",
   "languages": ["en"],

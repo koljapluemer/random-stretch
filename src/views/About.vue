@@ -19,7 +19,7 @@
   </p>
   <h3 class="text-lg font-bold">Can I contribute?</h3>
   <p>
-    This project is OpenSource. You are welcome to contribute or to make derivative versions. Check the <a href="https://github.com/koljapluemer/random-stretch">GitHub</a>.
+    This project is OpenSource. You are welcome to contribute or to make derivative versions. Check the <a class="underline" href="https://github.com/koljapluemer/random-stretch">GitHub</a>.
   </p>
   <h3 class="text-lg font-bold">How are the stretches related?</h3>
   <p>
