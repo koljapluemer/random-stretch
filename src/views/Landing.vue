@@ -9,9 +9,12 @@
   </ul>
   <div class="flex gap-2 flex-col">
     <router-link class="btn btn-primary btn-lg" to="/main">
-      Get a Random Stretch</router-link>
-    <span class="text-center mx-auto text-sm">(that you can do right now)</span>
+      Get a Random Stretch Right Now</router-link>
+    <router-link class="btn btn-secondary" :to="{ name: 'Main', query: { officeOnly: true } }">
+      Get a Desk Stretch</router-link>
+    <span class="text-center mx-auto text-sm">(you don't need to get up and it's not awkward at work)</span>
   </div>
+
 </template>
 
 <script setup></script>

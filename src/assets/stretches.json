@@ -1,38 +1,37 @@
 [
     {
+        "name": "The Locust Pose",
+        "id": "F56OrUyQB2o",
+        "original_source": "https://www.reddit.com/r/flexibility/comments/5g46jn/december_is_back_strength_for_backbends/"
+    },
+    {
         "name": "Cobra Pose",
-        "embed": "https://www.youtube.com/watch?v=CxI6DjNafyw&pp=ygUVT25lLWhhbmRlZCBDb2JyYSBwb3Nl",
         "id": "CxI6DjNafyw",
         "original_source": "https://www.reddit.com/r/flexibility/comments/5hfsfa/welcome_to_week_2_of_the_december_back_strength/"
     },
     {
         "name": "Standing Arch",
-        "embed": "https://www.youtube.com/watch?v=kpt3aAQJHEU",
         "id": "kpt3aAQJHEU",
         "original_source": "https://www.reddit.com/r/flexibility/comments/5hfsfa/welcome_to_week_2_of_the_december_back_strength/"
     },
     {
         "name": "Assisted Deep Squat",
         "id": "7LgnZbHpFFE",
-        "embed": "https://www.youtube.com/watch?v=7LgnZbHpFFE",
         "original_source": "https://www.reddit.com/r/flexibility/comments/4lxu1l/welcome_to_week_1_of_the_squat_mobility_month/"
     },
     {
         "name": "Lying Hip Rotation",
-        "embed": "https://www.youtube.com/watch?v=y9Ea-Y2mXAU",
         "id": "y9Ea-Y2mXAU",
         "original_source": "https://www.reddit.com/r/flexibility/comments/4lxu1l/welcome_to_week_1_of_the_squat_mobility_month/"
     },
     {
         "name": "Priformis Stretch",
-        "embed": "https://www.youtube.com/watch?v=mT-3b4rgRzg",
         "id": "mT-3b4rgRzg",
         "original_source": "https://www.reddit.com/r/flexibility/comments/4lxu1l/welcome_to_week_1_of_the_squat_mobility_month/"
     },
     {
         "name": "90/90 Hip Stretch",
         "id": "F1XdXdCjERk",
-        "embed": "https://youtu.be/F1XdXdCjERk?si=GaM174mMsqnt33Sv",
         "original_source": ""
     },
     {
@@ -73,7 +72,7 @@
         "name": "Child's Stretch",
         "id": "EsSnOqsq52g"
     },
-    { 
+    {
         "name": "Monkey Crawls",
         "id": "CC2gDri2TlE",
         "original_source": "https://www.reddit.com/r/flexibility/comments/4lxu1l/welcome_to_week_1_of_the_squat_mobility_month/"
@@ -82,7 +81,7 @@
         "name": "Backbend",
         "id": "giZq1-o5H1w"
     },
-    { 
+    {
         "name": "Bridge Stretch",
         "id": "q1h4IyY5Zww"
     },
@@ -118,7 +117,7 @@
         "name": "Kneeling Hamstring",
         "id": "MiAXGtx_J0M"
     },
-    { 
+    {
         "name": "Revolved Crescent Lunge",
         "id": "6Tk10rqyzcA"
     },
@@ -149,5 +148,80 @@
     {
         "name": "Wide Leg Squat",
         "id": "GQPT2wlVpmo"
+    },
+    {
+        "name": "Seated Knee Extension",
+        "id": "VuJZ6dqMf8M",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Hip Flexion",
+        "id": "6gOv516iooU",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Heel and Toe Raises",
+        "id": "ohvR3shCV90",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Thoracic Extension",
+        "id": "kCoTeRB8c-g",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Chin Tucks",
+        "id": "7rnlAVhAK-8",
+        "isOffice": true
+    },
+    { 
+        "name": "Seated Low Back Stretch",
+        "id": "oi4Dq7uZfEg",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Hamstring Stretch",
+        "id": "ykOlGxeEnr0",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Piriformis Stretch",
+        "id": "8up6_8Ryzgo",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Lateral Trunk Stretch",
+        "id": "riUAQz37QHw",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Spinal Twist",
+        "id": "6URMDkf2Uxk",
+        "isOffice": true
+    },
+    {
+        "name": "Chest Opener",
+        "id": "yjYXE1lbEHs",
+        "isOffice": true
+    },
+    { 
+        "name": "Cat and Cow (Chair)",
+        "id": "M8c9LByNEtY",
+        "isOffice": true
+    },
+    {
+        "name": "Overhead Tricep Stretch",
+        "id": "nbHOmIYMazk",
+        "isOffice": true
+    },
+    {
+        "name": "Seated Side Bend",
+        "id": "wwHAnGiYdrU",
+        "isOffice": true
+    },
+    {
+        "name": "Static Seated Chest Opener",
+        "id": "cc4UokhrzPs",
+        "isOffice": true
     }
 ]
