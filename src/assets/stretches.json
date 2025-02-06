@@ -152,76 +152,96 @@
     {
         "name": "Seated Knee Extension",
         "id": "VuJZ6dqMf8M",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Hip Flexion",
         "id": "6gOv516iooU",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Heel and Toe Raises",
         "id": "ohvR3shCV90",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Thoracic Extension",
         "id": "kCoTeRB8c-g",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Chin Tucks",
         "id": "7rnlAVhAK-8",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
-    { 
+    {
         "name": "Seated Low Back Stretch",
         "id": "oi4Dq7uZfEg",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Hamstring Stretch",
         "id": "ykOlGxeEnr0",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Piriformis Stretch",
         "id": "8up6_8Ryzgo",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Lateral Trunk Stretch",
         "id": "riUAQz37QHw",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Spinal Twist",
         "id": "6URMDkf2Uxk",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Chest Opener",
         "id": "yjYXE1lbEHs",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
-    { 
+    {
         "name": "Cat and Cow (Chair)",
         "id": "M8c9LByNEtY",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Overhead Tricep Stretch",
         "id": "nbHOmIYMazk",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Seated Side Bend",
         "id": "wwHAnGiYdrU",
-        "isOffice": true
+        "isOffice": true,
+        "isDesk": true
     },
     {
         "name": "Static Seated Chest Opener",
         "id": "cc4UokhrzPs",
+        "isOffice": true,
+        "isDesk": true
+    },
+    {
+        "name": "Hinge and Reach",
+        "id": "QfTiw84giDE",
         "isOffice": true
     }
 ]

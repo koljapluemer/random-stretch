@@ -3,10 +3,15 @@
     <router-link class="font-bold text-lg" to="/">Random Stretch Recommender</router-link>
     <nav class="flex flex-row gap-2">
       <!-- make btn-primary is path is exactly "/main" -->
-      <router-link class="btn btn-sm" to="/main" :class="{ 'btn-primary': $route.path === '/main' && !$route.query.officeOnly }">
+      <router-link class="btn btn-sm" to="/main"
+        :class="{ 'btn-primary': $route.path === '/main' && !$route.query.officeOnly }">
         Random Stretch</router-link>
-        <!-- make btn-primary if path is main?officeOnly=true -->
-      <router-link class="btn btn-sm" :to="{ name: 'Main', query: { officeOnly: true } }" :class="{ 'btn-primary': $route.query.officeOnly === 'true' }">
+      <!-- make btn-primary if path is main?officeOnly=true -->
+      <router-link class="btn btn-sm" :to="{ name: 'Main', query: { officeOnly: true, deskOnly: false } }"
+        :class="{ 'btn-primary': $route.query.officeOnly === 'true' }">
+        Office Stretch</router-link>
+      <router-link class="btn btn-sm" :to="{ name: 'Main', query: { deskOnly: true, officeOnly: false } }"
+        :class="{ 'btn-primary': $route.query.deskOnly === 'true' }">
         Desk Stretch</router-link>
     </nav>
   </header>

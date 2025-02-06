@@ -30,7 +30,8 @@ import StretchDisplay from "../components/StretchDisplay.vue";
 import { useRoute } from 'vue-router';
 
 const route = useRoute();
-const officeOnly = route.query.officeOnly === 'true'; 
+const officeOnly = route.query.officeOnly === 'true';
+const deskOnly = route.query.deskOnly === 'true';
 
 const currentStretch = ref(null);
 const disclaimerOpen = ref(true);
@@ -45,6 +46,11 @@ function getRandomStretch() {
     const officeStretches = stretches.filter((stretch) => stretch.isOffice);
     const officeRandomIndex = seededRandom(seed, officeStretches.length);
     currentStretch.value = officeStretches[officeRandomIndex];
+  } else if (deskOnly) {
+    console.info("Desk only");
+    const deskStretches = stretches.filter((stretch) => stretch.isDesk);
+    const deskRandomIndex = seededRandom(seed, deskStretches.length);
+    currentStretch.value = deskStretches[deskRandomIndex];
   } else {
     console.info("All stretches");
     const randomIndex = seededRandom(seed, stretches.length);
