@@ -5,14 +5,14 @@
       <!-- make btn-primary is path is exactly "/main" -->
       <router-link class="btn btn-sm" :to="{ name: 'Main', query: { officeOnly: false, deskOnly: false } }"
         :class="{ 'btn-primary': $route.query.officeOnly === 'false' && $route.query.deskOnly === 'false' }">
-        Random Stretch</router-link>
+        All</router-link>
       <!-- make btn-primary if path is main?officeOnly=true -->
       <router-link class="btn btn-sm" :to="{ name: 'Main', query: { officeOnly: true, deskOnly: false } }"
         :class="{ 'btn-primary': $route.query.officeOnly === 'true' }">
-        Office Stretch</router-link>
+        Office</router-link>
       <router-link class="btn btn-sm" :to="{ name: 'Main', query: { deskOnly: true, officeOnly: false } }"
         :class="{ 'btn-primary': $route.query.deskOnly === 'true' }">
-        Desk Stretch</router-link>
+        Desk</router-link>
     </nav>
   </header>
   <main class="flex flex-col gap-4 flex-center p-10 max-w-lg mx-auto w-full">
