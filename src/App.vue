@@ -19,7 +19,8 @@
     <router-view :key="$route.fullPath" />
   </main>
 
-  <footer class="border-t-2 mt-10 w-full py-4 text-sm flex flex-col md:flex-row justify-center gap-2">
+  <footer class="border-t-2 mt-10 w-full py-4 text-sm flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center">
+    <a href='https://ko-fi.com/S6S81CWUVD' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
     <!-- Twitter Share Button -->
     <a href="https://twitter.com/share?url=https://stretch.koljapluemer.com/" target="_blank" rel="noopener" class="link">
       <i class="fab fa-twitter share-icon"></i>→ Share on Twitter/X
