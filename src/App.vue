@@ -19,23 +19,20 @@
     <router-view :key="$route.fullPath" />
   </main>
 
-  <footer class="border-t-2 mt-10 w-full py-4 text-sm flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center">
-    <a href='https://ko-fi.com/S6S81CWUVD' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-    <!-- Twitter Share Button -->
-    <a href="https://twitter.com/share?url=https://stretch.koljapluemer.com/" target="_blank" rel="noopener" class="link">
-      <i class="fab fa-twitter share-icon"></i>→ Share on Twitter/X
-    </a>
+  <footer
+    class="border-t-2 mt-10 w-full py-4 text-sm flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center">
+    <p>
+      Made by
+      <a class="link" href="https://koljasam.com/" target="_blank">Kolja Sam</a>.
+    </p>
 
-    <!-- Reddit Share Button -->
-    <a href="https://www.reddit.com/submit?url=https://stretch.koljapluemer.com/" target="_blank" rel="noopener" class="link">
-      <i class="fab fa-reddit share-icon"></i>→ Share on Reddit
-    </a>
+    <p class="text-base-content/90">
+      Nothing tracked except page views.
+    </p>
 
-
-    <a href="mailto:feedback@koljapluemer.com" class="link">→ Give Feedback</a>
-    <span>
-      → More on <a class="link" href="https://koljapluemer.com/">koljapluemer.com</a>
-    </span>
+    <p>If this little site improved your flexibility, I'd be happy if you'd <a href="https://ko-fi.com/S6S81CWUVD" target="_blank" rel="noopener" class="link">
+        buy me a coffee
+      </a>.</p>
     <router-link to="/about" class="link">→ About</router-link>
   </footer>
 </template>

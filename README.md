@@ -1,12 +1,8 @@
-![screenshots of the app's screens](doc/img/screenshot.png)
+![screenshots of the app's screens](doc/screenshot.webp)
 
 # Random Stretch
 
 A simple vue app recommending a random stretching exercise. Available online [here](https://stretch.koljapluemer.com/)
-
-> [!NOTE]  
-> I froze the development of this project for now to focus on other things. The website itself will stay online.
-
 
 ## Development
 
